@@ -1,2 +1,2 @@
-# <%= name %>
-<%= prettyName %> module for llama-rlsr
+# <%- name %>
+<%- prettyName %> module for llama-rlsr

@@ -4,7 +4,7 @@ Contributions are welcome. Very very welcome.
 
 ## Issues Page
 
-The [GitHub Issues](<%= issues %>) page for <%= name %> covers a variety of things:
+The [GitHub Issues](<%- issues %>) page for <%- name %> covers a variety of things:
 - Bugs
 - Features
 - Discussions
@@ -21,10 +21,10 @@ Include as much detail as possible.
 ### Feature Requests
 Include as much detail as possible. 
 - What would this new feature do? What problem does it fix?
-- Is this achievable by the current implementation of <%= name %> at all?
+- Is this achievable by the current implementation of <%- name %> at all?
 
 ### Discussions
-Feel free to add your input to any item within the [GitHub Issues](<%= issues %>) list.
+Feel free to add your input to any item within the [GitHub Issues](<%- issues %>) list.
 
 Unwritten rules apply of be nice, be open-minded, etc.
 
