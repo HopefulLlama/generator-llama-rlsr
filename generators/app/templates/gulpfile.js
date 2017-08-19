@@ -9,7 +9,7 @@ gulp.task('test', sequence('lint', 'unit-test'));
 gulp.task('lint', () => {
   return gulp.src([
     'src/**/*.js',
-    'spec/**/*.js',
+    'spec/**/*.js'
   ])
   .pipe(jshint())
   .pipe(jshint.reporter('default'))
