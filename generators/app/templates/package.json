@@ -1,0 +1,33 @@
+{
+  "name": "<%- name %>",
+  "version": "0.0.0",
+  "description": "<%- prettyName %> module for llama-rlsr",
+  "main": "src/<%- name %>.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  <%- repository %>
+  "keywords": [
+    "npm",
+    "release-automation",
+    "release",
+    "nodejs"
+  ],
+  "author": "<%- email %>",
+  "license": "GNU",
+  <%- bugs %>
+  <%- homePage %>
+  "dependencies": {
+    "merge": "^1.2.0",
+    "winston": "^2.3.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jasmine": "^2.4.2",
+    "gulp-jshint": "^2.0.4",
+    "gulp-sequence": "^0.4.6",
+    "jshint": "^2.9.5",
+    "llama-rlsr": "0.0.4",
+    "llama-helper": "0.0.1"
+  }
+}
