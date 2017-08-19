@@ -7,4 +7,4 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased]
 - Nothing yet
 
-[Unreleased]: 
+[Unreleased]: https://github.com/HopefulLlama/generator-llama-rlsr/compare/4e7b26898b519a3ffb1d5b2cba69b5356f022555...HEAD
