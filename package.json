@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "description": "Yeoman generator for llama-rlsr modules",
   "main": "index.js",
-  "files": ["generators"],
+  "files": [
+    "generators"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,11 +16,12 @@
   "author": "Jonathan Law <jonlaw10170@gmail.com> (https://hopefulllama-portfolio.herokuapp.com/)",
   "license": "GPL-2.0",
   "dependencies": {
-    "yeoman-generator": "^1.1.1",
     "gulp": "^3.9.1",
     "gulp-jasmine": "^2.4.2",
     "gulp-jshint": "^2.0.4",
     "gulp-sequence": "^0.4.6",
-    "jshint": "^2.9.5"
+    "jshint": "^2.9.5",
+    "yeoman-generator": "^1.1.1",
+    "yeoman-test": "^1.7.0"
   }
 }
