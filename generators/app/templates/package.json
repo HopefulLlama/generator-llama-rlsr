@@ -4,7 +4,8 @@
   "description": "<%- prettyName %> module for llama-rlsr",
   "main": "src/<%- name %>.js",
   "scripts": {
-    "test": "gulp"
+    "test": "gulp",
+    "release": "node ./node_modules/llama-rlsr/src/llama-rlsr.js llama-rlsr.config.js"
   },
   <%- repository %>
   "keywords": [
