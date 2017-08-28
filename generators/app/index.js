@@ -60,7 +60,7 @@ module.exports = class extends Generator {
       this.valid = true;
 
       let properties = {
-        name: this.answers.name,
+        name: `llama-rlsr-${this.answers.name}`,
         prettyName: this.answers.prettyName,
         importName: this.answers.prettyName.replace(' ', ''),
         email: this.answers.email,
