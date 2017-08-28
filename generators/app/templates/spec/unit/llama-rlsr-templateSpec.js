@@ -1,4 +1,4 @@
-const llamaRlsr<%- importName %> = require('../../src/llama-rlsr-<%- name %>');
+const llamaRlsr<%- importName %> = require('../../src/<%- name %>');
 
-describe('llama-rlsr-<%- name %>', () => {
+describe('<%- name %>', () => {
 });
