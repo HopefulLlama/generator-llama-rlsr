@@ -9,7 +9,7 @@ describe('Default Generator', () => {
   let baseFiles = [
     '.gitignore',
     '.jshintrc',
-    'CHANGELOG.MD',
+    'CHANGELOG.md',
     'gulpfile.js',
     'LICENSE',
     'package.json',
