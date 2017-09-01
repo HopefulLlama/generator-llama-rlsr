@@ -1,6 +1,6 @@
 {
   "name": "generator-llama-rlsr",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Yeoman generator for llama-rlsr modules",
   "main": "index.js",
   "files": [
