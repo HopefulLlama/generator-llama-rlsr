@@ -51,6 +51,7 @@ module.exports = class extends Generator {
       name: 'gitHubUser',
       message: 'What is your GitHub username (leave blank if this is not a GitHub project)?'
     }]).then((answers) => {
+      answers.name = `llama-rlsr-${answers.name}`;
       this.answers = answers;
     });
   }
@@ -60,7 +61,7 @@ module.exports = class extends Generator {
       this.valid = true;
 
       let properties = {
-        name: `llama-rlsr-${this.answers.name}`,
+        name: this.answers.name,
         prettyName: this.answers.prettyName,
         importName: this.answers.prettyName.replace(' ', ''),
         email: this.answers.email,
@@ -94,7 +95,7 @@ module.exports = class extends Generator {
       files.forEach((f) => {
         this.fs.copyTpl(
           this.templatePath(f),
-          this.destinationPath(f.replace('_._', '.').replace('template', this.answers.name)),
+          this.destinationPath(f.replace('_._', '.').replace('llama-rlsr-template', this.answers.name)),
           properties
         );
       });
