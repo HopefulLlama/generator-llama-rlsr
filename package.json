@@ -16,13 +16,16 @@
   ],
   "author": "Jonathan Law <jonlaw10170@gmail.com> (https://hopefulllama-portfolio.herokuapp.com/)",
   "license": "GPL-2.0",
-  "dependencies": {
+  "dependencies": {  },
+  "devDependencies": {
+    "github-api": "^3.0.0",
+    "simple-git": "^1.76.0",
     "gulp": "^3.9.1",
     "gulp-jasmine": "^2.4.2",
     "gulp-jshint": "^2.0.4",
     "gulp-sequence": "^0.4.6",
     "jshint": "^2.9.5",
-    "llama-rlsr": "0.0.4",
+    "llama-rlsr": "0.0.5",
     "llama-rlsr-keep-a-changelog": "0.0.4",
     "llama-rlsr-npm": "0.0.2",
     "yeoman-generator": "^1.1.1",
