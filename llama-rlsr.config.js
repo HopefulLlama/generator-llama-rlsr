@@ -8,7 +8,7 @@ module.exports = [
   }),
   LlamaRlsrKeepAChangelog.updateDiff({
     urlGenerator: (oldVersion, newVersion) => {
-      return `https://github.com/HopefulLlama/llama-rlsr-npm/compare/${oldVersion}...${newVersion}`;
+      return `https://github.com/HopefulLlama/generator-llama-rlsr/compare/${oldVersion}...${newVersion}`;
     },
     latest: 'HEAD',
     tag: {
